@@ -1,4 +1,6 @@
 # Parcial3
+Descomprimir el archivo: 'vendor.rar'
+
 Instalar Composer:
 https://getcomposer.org/Composer-Setup.exe
 
