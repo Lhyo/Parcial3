@@ -1,4 +1,9 @@
 # Parcial3
+Probado con: Apache 2.4.23 – PHP 7.0.10 – MySQL 5.7.14
+Requiere navegador web: chrome
+
+Descomprimir el archivo: 'vendor.rar'
+
 Instalar Composer:
 https://getcomposer.org/Composer-Setup.exe
 
