@@ -1,20 +1,30 @@
 <?php
 
-namespace Tests\Unit;
+use App\sesiones;
 
-use Tests\TestCase;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Illuminate\Foundation\Testing\DatabaseTransactions;
-
-class ExampleTest extends TestCase
+class ExampleTest extends \Codeception\Test\Unit
 {
     /**
-     * A basic test example.
-     *
-     * @return void
+     * @var \UnitTester
      */
-    public function testBasicTest()
+    protected $tester;
+
+
+    protected function _before()
     {
-        $this->assertTrue(true);
+        
     }
+
+
+    // tests
+function testUserNameCanBeChanged()
+{
+  
+    $nombre = new sesiones();
+  
+    $nombre->setNombre('bill');
+    $this->assertEquals('bill', $nombre->getNombre());
+    // verify data was saved using framework methods
+    
+}
 }
